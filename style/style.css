@@ -27,12 +27,17 @@ header{
   }
 
 .headerContainer{
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding:1% 0 1% 0;
     height: 15vh;
     background-color: white;
+    position:fixed;
+width:100%;
+top:0;
+    
 }
 
 header nav{
@@ -89,7 +94,7 @@ header nav a{
 
 
 
-.randomImages{
+.truckImages{
     display: flex;
     flex-wrap: wrap;
     width:80%;
@@ -97,11 +102,34 @@ header nav a{
     justify-content: space-evenly;
 }
 
-.randomImages img{
-    width: 20%;
+.truckImages img{
+    
     margin: 1% 1% 1% 1%;
 }
 h3{
     text-align: center;
     margin:3% 0 1% 0;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 0 0;
+}
+
+h4{
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.button{
+    text-align: center;
+    padding: ;
+}
+.button button{
+    font-size: 2em;
+    margin: 1% 0 1% 0;
+    padding: .5% .5% .5% .5%;
+    background-color: black;
+    color:white;
 }
