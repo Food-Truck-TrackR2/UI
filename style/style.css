@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    border: 1px solid grey;
+    line-height: 2;
+    font-size: 2rem;
+    
+}
+.headerBackground{
+    height:80vh;
+    background-color:#E0FFFF;
+    background-image:url(https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+  }
+
+.headerContainer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:1% 0 1% 0;
+    height: 15vh;
+    background-color: white;
+    position:fixed;
+width:100%;
+top:0;
+    
+}
+
+.aboutHeaderContainer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:1% 0 1% 0;
+    height: 15vh;
+    background-color: white;
+   
+    
+}
+
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    width: 20%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#companyInfo{
+    font-size: 3rem;
+    text-align: center;
+    padding:1% 0 1% 0;
+    margin-top: 3%;
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.aboutContainer p{
+    width:40%;
+    padding:1% 1% 1% 1%;
+    margin:1% 1% 1% 1%;
+    display: flex;
+    align-items: center;
+}
+
+.log-in {
+    text-align: center;
+    font-size: 3rem;
+    margin:1% 0 1% 0;
+}
+h2{
+    font-size: 3rem;
+}
+.aboutContainer2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.aboutContainer2 p{
+    width:40%;
+    padding:1% 1% 1% 1%;
+    margin:1% 0 1% 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.truckImages{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.truckImages img{
+    
+    margin: 1% 1% 1% 1%;
+}
+h3{
+    font-size: 3rem;
+    text-align: center;
+    margin:3% 0 1% 0;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 0 0;
+}
+
+h4{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.button{
+    text-align: center;
+    padding: ;
+}
+.button button{
+    font-size: 1.5em;
+    margin: 1% 0 1% 0;
+    padding: .5% .5% .5% .5%;
+    background-color: black;
+    color:white;
+}
+
+.aboutUs{
+    width:85%;
+    margin: 0 auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center,;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aboutUs{
+    text-align: center;
+}
