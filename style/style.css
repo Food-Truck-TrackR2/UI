@@ -39,7 +39,7 @@ body{
     align-items: center;
     padding:1% 0 1% 0;
     height: 15vh;
-    background-color:#EAF5F7;
+    background-color: white;
     position:fixed;
 width:100%;
 top:0;
@@ -61,7 +61,7 @@ top:0;
     align-items: center;
     padding:1% 0 1% 0;
     height: 15vh;
-    background-color: #E0FFFF;
+    background-color: white;
    
     
 }
