@@ -16,7 +16,7 @@ body{
     font-size: 2rem;
     
 }
-header{
+.headerBackground{
     height:80vh;
     background-color:#E0FFFF;
     background-image:url(https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
@@ -37,6 +37,18 @@ header{
     position:fixed;
 width:100%;
 top:0;
+    
+}
+
+.aboutHeaderContainer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:1% 0 1% 0;
+    height: 15vh;
+    background-color: white;
+   
     
 }
 
@@ -77,7 +89,9 @@ header nav a{
     font-size: 3rem;
     margin:1% 0 1% 0;
 }
-
+h2{
+    font-size: 3rem;
+}
 .aboutContainer2{
     display: flex;
     justify-content: center;
@@ -107,6 +121,7 @@ header nav a{
     margin: 1% 1% 1% 1%;
 }
 h3{
+    font-size: 3rem;
     text-align: center;
     margin:3% 0 1% 0;
 }
@@ -118,6 +133,7 @@ h3{
 }
 
 h4{
+    font-size: 3rem;
     text-align: center;
     margin: 2% 0 0 0;
 }
@@ -127,9 +143,23 @@ h4{
     padding: ;
 }
 .button button{
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 1% 0 1% 0;
     padding: .5% .5% .5% .5%;
     background-color: black;
     color:white;
+}
+
+.aboutUs{
+    width:85%;
+    margin: 0 auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center,;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aboutUs{
+    text-align: center;
 }
