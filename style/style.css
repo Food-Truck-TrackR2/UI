@@ -89,3 +89,19 @@ header nav a{
 
 
 
+.randomImages{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.randomImages img{
+    width: 20%;
+    margin: 1% 1% 1% 1%;
+}
+h3{
+    text-align: center;
+    margin:3% 0 1% 0;
+}
