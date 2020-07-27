@@ -76,6 +76,11 @@ header nav a{
     
 }
 
+.truckImage{
+    display: flex;
+    align-items: center;
+}
+
 .aboutContainer p{
     width:40%;
     padding:1% 1% 1% 1%;
@@ -151,7 +156,7 @@ h4{
 }
 
 .aboutUs{
-    width:85%;
+    width:95%;
     margin: 0 auto;
     margin-top: 4%;
     display: flex;
@@ -163,3 +168,106 @@ h4{
 .aboutUs{
     text-align: center;
 }
+
+@media(max-width: 860px){
+    .headerContainer{
+        background-color:lightgray;
+        
+    }
+
+    .aboutContainer{
+        flex-direction: column;
+    }
+
+    .aboutContainer p{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutContainer2{
+        
+        flex-direction: column-reverse;
+    }
+
+    .aboutContainer2 p{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .truckImage img{
+        margin: 0 auto;
+        width: 90%;
+        height: 30vh;
+    }
+
+    .truckImages{
+        
+        border: 1px red solid;
+        width: 90%;
+    }
+
+    .truckImages img{
+        width: 90%;
+        height: 40vh;
+    }
+}
+
+@media(max-width: 800px){
+    .headerContainer{
+        background-color: lightcyan;
+        flex-direction: column;
+        justify-content: start;
+        
+        height: 33vh;
+        
+    }
+
+    
+
+    .headerContainer nav{
+        flex-direction: column;
+        align-items: center;
+        width:80%;
+    }
+
+    .headerContainer nav a{
+        width: 90%;
+    }
+
+    .aboutHeaderContainer{
+        background-color: lightcyan;
+        flex-direction: column;
+        justify-content: start;
+        
+        height: 33vh;
+        }
+        .aboutHeaderContainer nav{
+            flex-direction: column;
+            align-items: center;
+            width:80%;
+        }
+
+        .aboutHeaderContainer nav a{
+            width: 90%;
+        }
+
+        
+    
+}
+
+@media(max-width: 655px){
+    .aboutUs div{
+        border: 1px solid red;
+        width: 80%;
+    }
+
+    .aboutUs img{
+        border: 1px solid  red;
+        width: 90%;
+
+    }
+}
+
+
+
+    
