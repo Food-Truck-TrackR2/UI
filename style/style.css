@@ -19,7 +19,7 @@ body{
     border: 1px solid grey;
     line-height: 2;
     font-size: 2rem;
-    background-color:#E0FFFF;
+    background-color:white;
     
 }
 .headerBackground{
@@ -39,7 +39,7 @@ body{
     align-items: center;
     padding:1% 0 1% 0;
     height: 15vh;
-    background-color: white;
+    background-color:#418771;
     position:fixed;
 width:100%;
 top:0;
@@ -61,7 +61,7 @@ top:0;
     align-items: center;
     padding:1% 0 1% 0;
     height: 15vh;
-    background-color: white;
+    background-color:#418771;
    
     
 }
@@ -118,11 +118,12 @@ header nav a{
 }
 
 .aboutContainer p{
-    width:40%;
+    width:30%;
     padding:1% 1% 1% 1%;
     margin:1% 1% 1% 1%;
     display: flex;
     align-items: center;
+    background-color: burlywood;
 }
 
 .log-in {
@@ -141,11 +142,13 @@ h2{
 }
 
 .aboutContainer2 p{
-    width:40%;
+    width:30%;
     padding:1% 1% 1% 1%;
-    margin:1% 0 1% 0;
+    margin:1% 1% 1% 0;
     display: flex;
     align-items: center;
+    background-color:#E78959 ;
+
 }
 
 
@@ -200,15 +203,26 @@ h4{
     justify-content: center,;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    line-height: 1;
+    text-align: center;
+    font-size: 1.5em;
+    
 }
 
-.aboutUs{
-    text-align: center;
+.aboutUs img{
+    
+    margin: 0;
+
 }
+
+.devs h3{
+    font-size:6rem;
+}
+
 
 @media(max-width: 860px){
     .headerContainer{
-        background-color:lightgray;
+       
         
     }
 
@@ -239,7 +253,7 @@ h4{
 
     .truckImages{
         
-        border: 1px red solid;
+        
         width: 90%;
     }
 
@@ -247,15 +261,20 @@ h4{
         width: 90%;
         height: 40vh;
     }
+
+    nav a{
+        margin: .5% 0 .5% 0;
+    }
 }
 
 @media(max-width: 800px){
     .headerContainer{
-        background-color: lightcyan;
+        
         flex-direction: column;
         justify-content: start;
         
-        height: 33vh;
+        
+        height: 36vh;
         
     }
 
@@ -272,11 +291,11 @@ h4{
     }
 
     .aboutHeaderContainer{
-        background-color: lightcyan;
+        
         flex-direction: column;
         justify-content: start;
         
-        height: 33vh;
+        height: 36vh;
         }
         .aboutHeaderContainer nav{
             flex-direction: column;
@@ -294,12 +313,12 @@ h4{
 
 @media(max-width: 655px){
     .aboutUs div{
-        border: 1px solid red;
+        
         width: 80%;
     }
 
     .aboutUs img{
-        border: 1px solid  red;
+        
         width: 90%;
 
     }
