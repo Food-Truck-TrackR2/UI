@@ -22,36 +22,20 @@ body{
     background-color:white;
     
 }
+
 .headerBackground{
-    height:80vh;
+    height:90vh;
     
     background-image:url(https://images.unsplash.com/photo-1570441262582-a2d4b9a916a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80);
     background-repeat:no-repeat;
     background-size:cover;
-    background-position: center;
+    background-position: top;
     background-attachment:fixed;
   }
 
-.headerContainer{
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding:1% 0 1% 0;
-    height: 15vh;
-    background-color:#418771;
-    position:fixed;
-width:100%;
-top:0;
-    
-}
+ 
+  
 
-.headerContainer h2{
-    font-family: 'Patrick Hand', cursive;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: .5% .5% .5%
-    .5%;}
 
 
 .aboutHeaderContainer{
@@ -60,11 +44,35 @@ top:0;
     justify-content: space-evenly;
     align-items: center;
     padding:1% 0 1% 0;
-    height: 15vh;
+    width: 100%;
     background-color:#418771;
+    position:fixed;
+width:100%;
+top:0;
    
     
 }
+
+.aboutHeaderContainer2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:1% 0 1% 0;
+    width: 100%;
+    background-color:#418771;
+  
+    
+}
+
+.aboutHeaderContainer a{
+   width: 10%;
+}
+
+.aboutHeaderContainer2 a{
+    width: 10%;
+ }
+
 
 header nav{
     width: 50%;
@@ -88,6 +96,10 @@ header nav a{
     margin-top: 3%;
    
     
+}
+
+.logo{
+    width: 10%;
 }
 
  h1{
@@ -221,10 +233,7 @@ h4{
 
 
 @media(max-width: 860px){
-    .headerContainer{
-       
-        
-    }
+    
 
     .aboutContainer{
         flex-direction: column;
@@ -267,49 +276,52 @@ h4{
     }
 }
 
-@media(max-width: 800px){
-    .headerContainer{
-        
-        flex-direction: column;
-        justify-content: start;
-        
-        
-        height: 36vh;
-        
-    }
-
-    
-
-    .headerContainer nav{
-        flex-direction: column;
-        align-items: center;
-        width:80%;
-    }
-
-    .headerContainer nav a{
-        width: 90%;
-    }
+@media(max-width: 730px){
+  
 
     .aboutHeaderContainer{
         
         flex-direction: column;
         justify-content: start;
         
-        height: 36vh;
+        
         }
+    
+        .aboutHeaderContainer2{
+        
+            flex-direction: column;
+            justify-content: start;
+            
+            
+            }
+    .logo{
+        width: 20%;
+    }
         .aboutHeaderContainer nav{
             flex-direction: column;
             align-items: center;
             width:80%;
         }
 
-        .aboutHeaderContainer nav a{
+        .aboutHeaderContainer2 nav{
+            flex-direction: column;
+            align-items: center;
+            width:80%;
+        }
+
+        .aboutHeaderContainer  a{
             width: 90%;
         }
+
+        .aboutHeaderContainer2  a{
+            width: 90%;
+        }
+
 
         
     
 }
+
 
 @media(max-width: 655px){
     .aboutUs div{
